@@ -88,7 +88,9 @@
     {
       "tag": "penjelasan_studi_independen",
       "patterns": [
-        "Apa itu studi independen?"
+        "Apa itu studi independen?",
+        "Apa yang dimaksud dengan Studi Independen?",
+        "Apa si Studi Independen?"
       ],
       "responses": [
         "Salah satu program Kampus Merdeka Kemendikbud yang bertujuan untuk mewujudkan gagasan mahasiswa dalam mengembangkan diri melalui aktivitas di luar perkuliahan dan menambah kompetensi spesifik serta praktis yang akan digunakan dalam dunia industri"
@@ -123,7 +125,9 @@
     },
     {"tag": "penjelasan_orbit",
     "patterns":[
-        "Apa itu Orbit Future Academy?"
+        "Apa itu Orbit Future Academy?",
+        "Apasi Orbit Future Academy?",
+        "Orbit Future Academy itu apasi?"
     ],
      "responses": [
         "Orbit Future Academy adalah inisiatif “Skills-for-Future-Jobs” oleh PT Orbit Ventura Indonesia. Kami mengkurasi dan melokalisasi program & kursus internasional untuk peningkatan keterampilan dan keterampilan ulang pemuda dan tenaga kerja menuju Pekerjaan Masa Depan. Orbit merupakan kelanjutan dari warisan Almarhum Dr Hasri Ainun Habibie dan Almarhum Prof Dr Ing. BJ Habibie , Presiden ke-3 Republik Indonesia."
@@ -131,28 +135,86 @@
     },
     {"tag": "progam_orbit",
     "patterns":[
-        "Apa saja progam dari Orbit Future Academy yang terdaftar dalam Studi Independen?"
+        "Apa saja progam dari Orbit Future Academy yang terdaftar dalam Studi Independen?",
+        "Progam apa saja yang terdaftar dalam Studi Independen di Orbit Future Academy?"
     ],
      "responses": [
-        "Progam Orbit Future Academy teridiri dari AI 4 Jobs dan AI Mastery Progam"
+        "Progam Orbit Future Academy yang terdaftar dalam Studi Independen adalah AI 4 Jobs dan AI Mastery Progam"
      ]
     },
     {"tag": "penjelasan_ai4jobs",
     "patterns":[
-        "Apa itu progam AI 4 Jobs?"
+        "Apa itu progam AI 4 Jobs?",
+        "AI 4 Jobs itu apa?",
+        "Apasi AI 4 Jobs?"
     ],
      "responses": [
-        "Progam AI 4 Jobs adalah AI 4 Jobs  adalah program pelatihan Artificial Intelligence secara online yang diperuntukkan bagi siswa dengan tujuan untuk memperkenalkan teknologi AI ke pelajar sekaligus juga untuk memberikan kesempatan kepada mereka untuk dapat mengaplikasikan perangkat AI, sehingga dapat menghasilkan suatu produk yang memiliki dampak sosial bagi komunitas mereka dan masyarakat umum dengan menitikberatkan kepada komponen utama AI seperti Data Science, Natural Language Processing, and Computer Vision."
+        "Progam AI 4 Jobs adalah program pelatihan Artificial Intelligence secara online yang diperuntukkan bagi siswa dengan tujuan untuk memperkenalkan teknologi AI ke pelajar sekaligus juga untuk memberikan kesempatan kepada mereka untuk dapat mengaplikasikan perangkat AI, sehingga dapat menghasilkan suatu produk yang memiliki dampak sosial bagi komunitas mereka dan masyarakat umum dengan menitikberatkan kepada komponen utama AI seperti Data Science, Natural Language Processing, and Computer Vision."
   ]
 },
 {
   "tag": "penjelasan_aimasteryprogam",
   "patterns":[
-      "Apa itu progam AI Mastery Progam"
+      "Apa itu progam AI Mastery Progam",
+      "AI Mastery Progam itu apa?",
+      "Apasi AI Mastery Progam?"
   ],
    "responses": [
       "Progam AI Mastery Progam adalah AI Mastery merupakan program pelatihan Artificial Intelligence secara online yang bertujuan memperkenalkan teknologi AI ke pelajar dan memberikan kesempatan kepada mereka untuk mengaplikasikannya dengan menyelesaikan project berbasis AI, sehingga dapat menghasilkan suatu produk yang memiliki dampak sosial bagi komunitas mereka dan masyarakat umum dengan menitikberatkan kepada Data Science, Natural Language Processing, atau Computer Vision."
    ]
-}
+},
+{
+  "tag": "rekomendasi_progam",
+  "patterns":[
+      "Apa progam yang sesuai untuk kemampuan saya?",
+      "Kira kira progam apa yang cocok untuk saya?"
+  ],
+   "responses": [
+      "Jika kamu memiliki basic IT dapat memilih progam AI Mastery, tetapi jika tidak memiliki basic Siobot sarankan kamu memilih AI 4 Jobs"
+   ]
+},
+{
+   "tag": "pembelajaran_ai4jobs",
+  "patterns":[
+      "Apa saja yang kita pelajari di AI 4 Jobs?",
+      "Kita nanti belajar apa saja di AI 4 Jobs?",
+      "Apasi yang kita dapatkan nanti jika memilih AI 4 Jobs"
+  ],
+   "responses": [
+      "Yang kita pelajari di AI 4 Jobs adalah Logika dan Konsep Teknologi AI, Metode Penelitian AI, Siklus Projecet AI, Pemograman Python, Etika, Profesi dan Ketrampilan, dan yang terakhir Proyek Akhir"
+   ]
+},
+{
+    "tag": "pembelajaran_aimasteryprogam",
+    "patterns":[
+        "Apa saja yang kita pelajari di AI Mastery Progam?",
+        "Kita nanti belajar apa saja di AI Mastery Progam?",
+        "Apasi yang kita dapatkan nanti jika memilih AI Mastery Progam?"
+    ],
+     "responses": [
+        "Yang kita pelajari di AI Mastery Progam adalah Artificial Intelligence Machine Learning Deep Learning With Python, Data Science, Computer Vision, Natural Language Processing, Reinforcement Learning, Deployment, dan yang terakhir Proyek Akhir"
+     ]
+},
+{
+    "tag": "pembelajaran_aimasteryprogam",
+    "patterns":[
+        "Apa saja yang kita pelajari di AI Mastery Progam?",
+        "Kita nanti belajar apa saja di AI Mastery Progam?",
+        "Apasi yang kita dapatkan nanti jika memilih AI Mastery Progam?"
+    ],
+     "responses": [
+        "Yang kita pelajari di AI Mastery Progam adalah Artificial Intelligence Machine Learning Deep Learning With Python, Data Science, Computer Vision, Natural Language Processing, Reinforcement Learning, Deployment, dan yang terakhir Proyek Akhir"
+     ]
+},
+{
+    "tag": "jam_pembelajaran_orbit",
+    "patterns":[
+        "Bagaimana jam pembelajaran di Studi Independen Orbit Future Academy?",
+        "Waktu jam pembelajaran dimulai dari jam berapa?"
+    ],
+     "responses": [
+        "Jam pembelajaran di Studi Independen Orbit Future Academy dimulai dari jam 08.00 - 17.00 WIB. Itu dibagi menjadi 2 kegiatan. Jam 08.00 - 11.30 seacara online / ZOOM. Jam 13.00 - 17.00 kita belajar mandiri atau biasa disebut dengan Selt Learning"
+     ]
+},
   ]
 }
