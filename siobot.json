@@ -1,0 +1,158 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "hy",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis",
+        "kawan"
+      ],
+      "responses": [
+        "Hai! Siobot di sini. Mau tau informasi tentang apa nih?",
+        "Halo! Saya Siobot, salam kenal ya! Mau tau tentang kampus merdeka, kan?",
+        "Helo! Ini Siobot. Lagi kepo tentang kampus merdeka ya?"
+      ]
+    },
+    {
+      "tag": "SIOBOT",
+      "patterns": [
+        "Apa itu Siobot?",
+        "Siapa Siobot?"
+      ],
+      "responses": [
+        "Siobot adalah aplikasi chatbot informasi tentang Studi Independen yang berada dibawah naungan Orbit Future Accademy khususnya pada bidang AI For Jobs",
+        "Siobot itu adalah teman informasi kamu selama mengikuti kegiatan Studi Indenpenden AI 4 Jobs"
+      ]
+    },
+    {
+      "tag": "pencipta_siobot",
+      "patterns": [
+        "Siapa penciptamu?",
+        "Siobot, yang membuat kamu siapa?",
+        "Siapa pembuatmu, Siobot?"
+      ],
+      "responses": [
+        "Siobot diciptakan oleh Team 7 JumaTec",
+        "Pembuat Siobot dari kalangan mahasiswa dan mahasiswi lho!",
+        "Penciptaku berasal dari sekelompok mahasiswa yang random, sehingga saya bisa aktif saat ini!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you"
+      ],
+      "responses": [
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Dahh, semoga harimu menyenangkan yaa!",
+        "Sampai jumpa lagi!",
+        "See u! Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati :)",
+        "Sama-sama yaa"
+      ]
+    },
+    {
+      "tag": "penjelasan_studi_independen",
+      "patterns": [
+        "Apa itu studi independen?"
+      ],
+      "responses": [
+        "Salah satu program Kampus Merdeka Kemendikbud yang bertujuan untuk mewujudkan gagasan mahasiswa dalam mengembangkan diri melalui aktivitas di luar perkuliahan dan menambah kompetensi spesifik serta praktis yang akan digunakan dalam dunia industri"
+      ]
+    },
+    {
+      "tag": "persyaratan_studi_independen",
+      "patterns": [
+        "Apa saja persyaratan Studi Independen?"
+      ],
+      "responses": [
+        "Tidak ada persyaratan khusus. Seluruh mahasiswa dari perguruan tinggi dan program studi apapun dapat mengikuti program sesuai persyaratan setiap mitra"
+      ]
+    },
+    {
+      "tag": "periode_dan_pendaftaran_studi_independen",
+      "patterns": [
+        "Bagaimana periode pelaksanaan dan cara mendaftar program Studi Independen?"
+      ],
+      "responses": [
+        "Program berlangsung selama 1 hingga 2 semester. Cara mendaftarnya dengan mengunjungi laman https://kampusmerdeka.kemdikbud.go.id/program/studi-independen"
+      ]
+    },
+    {
+      "tag": "manfaat_studi_independen",
+      "patterns": [
+        "Apa saja manfaat apabila mengikuti Studi Independen?"
+      ],
+      "responses": [
+        "Manfaat yang didapatkan, yaitu konversi hingga 20 SKS, dapat melakukan program sertifikasi yang diakui Kemendikbudristek selama 1-2 semester, biaya partisipasi serta biaya hidup, dan sertifikat sertifikasi atau short course"
+      ]
+    },
+    {"tag": "penjelasan_orbit",
+    "patterns":[
+        "Apa itu Orbit Future Academy?"
+    ],
+     "responses": [
+        "Orbit Future Academy adalah inisiatif “Skills-for-Future-Jobs” oleh PT Orbit Ventura Indonesia. Kami mengkurasi dan melokalisasi program & kursus internasional untuk peningkatan keterampilan dan keterampilan ulang pemuda dan tenaga kerja menuju Pekerjaan Masa Depan. Orbit merupakan kelanjutan dari warisan Almarhum Dr Hasri Ainun Habibie dan Almarhum Prof Dr Ing. BJ Habibie , Presiden ke-3 Republik Indonesia."
+     ]
+    },
+    {"tag": "progam_orbit",
+    "patterns":[
+        "Apa saja progam dari Orbit Future Academy yang terdaftar dalam Studi Independen?"
+    ],
+     "responses": [
+        "Progam Orbit Future Academy teridiri dari AI 4 Jobs dan AI Mastery Progam"
+     ]
+    },
+    {"tag": "penjelasan_ai4jobs",
+    "patterns":[
+        "Apa itu progam AI 4 Jobs?"
+    ],
+     "responses": [
+        "Progam AI 4 Jobs adalah AI 4 Jobs  adalah program pelatihan Artificial Intelligence secara online yang diperuntukkan bagi siswa dengan tujuan untuk memperkenalkan teknologi AI ke pelajar sekaligus juga untuk memberikan kesempatan kepada mereka untuk dapat mengaplikasikan perangkat AI, sehingga dapat menghasilkan suatu produk yang memiliki dampak sosial bagi komunitas mereka dan masyarakat umum dengan menitikberatkan kepada komponen utama AI seperti Data Science, Natural Language Processing, and Computer Vision."
+  ]
+},
+{
+  "tag": "penjelasan_aimasteryprogam",
+  "patterns":[
+      "Apa itu progam AI Mastery Progam"
+  ],
+   "responses": [
+      "Progam AI Mastery Progam adalah AI Mastery merupakan program pelatihan Artificial Intelligence secara online yang bertujuan memperkenalkan teknologi AI ke pelajar dan memberikan kesempatan kepada mereka untuk mengaplikasikannya dengan menyelesaikan project berbasis AI, sehingga dapat menghasilkan suatu produk yang memiliki dampak sosial bagi komunitas mereka dan masyarakat umum dengan menitikberatkan kepada Data Science, Natural Language Processing, atau Computer Vision."
+   ]
+}
+  ]
+}
