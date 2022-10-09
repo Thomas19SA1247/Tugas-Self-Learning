@@ -123,8 +123,9 @@
         "Manfaat yang didapatkan, yaitu konversi hingga 20 SKS, dapat melakukan program sertifikasi yang diakui Kemendikbudristek selama 1-2 semester, biaya partisipasi serta biaya hidup, dan sertifikat sertifikasi atau short course"
       ]
     },
-    {"tag": "penjelasan_orbit",
-    "patterns":[
+    {
+      "tag": "penjelasan_orbit",
+      "patterns":[
         "Apa itu Orbit Future Academy?",
         "Apasi Orbit Future Academy?",
         "Orbit Future Academy itu apasi?"
@@ -133,8 +134,9 @@
         "Orbit Future Academy adalah inisiatif “Skills-for-Future-Jobs” oleh PT Orbit Ventura Indonesia. Kami mengkurasi dan melokalisasi program & kursus internasional untuk peningkatan keterampilan dan keterampilan ulang pemuda dan tenaga kerja menuju Pekerjaan Masa Depan. Orbit merupakan kelanjutan dari warisan Almarhum Dr Hasri Ainun Habibie dan Almarhum Prof Dr Ing. BJ Habibie , Presiden ke-3 Republik Indonesia."
      ]
     },
-    {"tag": "progam_orbit",
-    "patterns":[
+    {
+     "tag": "progam_orbit",
+     "patterns":[
         "Apa saja progam dari Orbit Future Academy yang terdaftar dalam Studi Independen?",
         "Progam apa saja yang terdaftar dalam Studi Independen di Orbit Future Academy?"
     ],
@@ -142,8 +144,9 @@
         "Progam Orbit Future Academy yang terdaftar dalam Studi Independen adalah AI 4 Jobs dan AI Mastery Progam"
      ]
     },
-    {"tag": "penjelasan_ai4jobs",
-    "patterns":[
+    {
+     "tag": "penjelasan_ai4jobs",
+     "patterns":[
         "Apa itu progam AI 4 Jobs?",
         "AI 4 Jobs itu apa?",
         "Apasi AI 4 Jobs?"
@@ -215,6 +218,6 @@
      "responses": [
         "Jam pembelajaran di Studi Independen Orbit Future Academy dimulai dari jam 08.00 - 17.00 WIB. Itu dibagi menjadi 2 kegiatan. Jam 08.00 - 11.30 seacara online / ZOOM. Jam 13.00 - 17.00 kita belajar mandiri atau biasa disebut dengan Selt Learning"
      ]
-},
-  ]
+}
+]
 }
